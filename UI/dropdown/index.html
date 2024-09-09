@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../common.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+	</head>
+	<body>
+		<h1>Dropdowns</h1>
+		<section class="dropdown">
+			<header>
+				<p class="display">You have not select any options.</p>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+					</svg>
+				</button>
+			</header>
+			<ul>
+				<li data-value="1">Option 1</li>
+				<li data-value="2">Option 2</li>
+				<li data-value="3">Option 3</li>
+				<li data-value="4">Option 4</li>
+			</ul>
+		</section>
+		<script type="text/javascript">
+			const tl = gsap
+				.timeline({ paused: true })
+				.from('.dropdown  button', { transform: 'rotateX(0deg)' })
+				.to('.dropdown ul', { opacity: 1, duration: 0.2 })
+				.to('.dropdown ul', { height: '100%' })
+				.from('.dropdown ul > li', { y: '-0.5rem', stagger: 0.2, duration: 0.5, ease: 'back' });
+			document.querySelector('.dropdown').addEventListener('click', (e) => {
+				const dropdown = e.currentTarget;
+				const isDropDownOpen = dropdown.classList.toggle('open');
+				if (isDropDownOpen) {
+					tl.play();
+				} else {
+					const { value } = e.target.dataset;
+					console.log(value);
+					if (!value) return;
+
+					dropdown.querySelector('.display').textConent = `You have selected "${value}".`;
+
+					tl.reverse();
+				}
+			});
+		</script>
+	</body>
+</html>
