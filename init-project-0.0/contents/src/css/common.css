@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: black;
+	min-width: 100vw;
+	min-height: 100vh;
+	overflow: hidden;
+}
+div.container-wrapper {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform-origin: top left;
+}
+button {
+	cursor: pointer;
+}
