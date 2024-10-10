@@ -1,0 +1,74 @@
+[
+  {
+    "name": "과학과 교육과정",
+    "type": "pdf",
+    "icon": "../common/img/3/common/icon_pdf.png",
+    "path": "../ref_common/과학과 교육과정.pdf"
+  },
+  {
+    "name": "교과서 편수 자료",
+    "type": "pdf",
+    "icon": "../common/img/3/common/icon_pdf.png",
+    "path": "../ref_common/교과서 편수 자료.pdf"
+  },
+  {
+    "name": "과학과 학기 지도 계획",
+    "type": "pdf",
+    "icon": "../common/img/3/common/icon_pdf.png",
+    "path": "../ref_common/초등_과학 5-1_과학과 학기 지도 계획.pdf"
+  },
+  {
+    "name": "과학 관련 누리집",
+    "type": "hwp",
+    "icon": "../common/img/3/common/icon_hwp.png",
+    "path": "../ref_common/과학 관련 누리집.hwp"
+  },
+  {
+    "name": "과학 도서 목록",
+    "type": "hwp",
+    "icon": "../common/img/3/common/icon_hwp.png",
+    "path": "../ref_common/과학 도서 목록.hwp"
+  },
+  {
+    "name": "안전 활동지",
+    "type": "hwp",
+    "icon": "../common/img/3/common/icon_hwp.png",
+    "path": "../ref_common/초등_과학 5-1_안전 활동지.hwp"
+  },
+  {
+    "name": "디지털 예절 활동지",
+    "type": "hwp",
+    "icon": "../common/img/3/common/icon_hwp.png",
+    "path": "../ref_common/초등_과학 5-1_디지털 예절 활동지.hwp"
+  },
+  {
+    "name": "자료 출처",
+    "type": "pdf",
+    "icon": "../common/img/3/common/icon_pdf.png",
+    "path": "../ref_common/초등_과학 5-1_자료 출처.pdf"
+  },
+  {
+    "name": "실험실 안전 수칙",
+    "type": "mp4",
+    "icon": "../common/img/3/common/icon_play.png",
+    "path": "../ref_common/실험실 안전 수칙.mp4"
+  },
+  {
+    "name": "실험 기구 사용법(디지털 현미경)",
+    "type": "mp4",
+    "icon": "../common/img/3/common/icon_play.png",
+    "path": "../ref_common/실험 기구 사용법(디지털 현미경).mp4"
+  },
+  {
+    "name": "실험 기구 사용법(눈금실린더)",
+    "type": "mp4",
+    "icon": "../common/img/3/common/icon_play.png",
+    "path": "../ref_common/실험 기구 사용법(눈금실린더).mp4"
+  },
+  {
+    "name": "실험 기구 사용법(전자저울)",
+    "type": "mp4",
+    "icon": "../common/img/3/common/icon_play.png",
+    "path": "../ref_common/실험 기구 사용법(전자저울).mp4"
+  }
+]
